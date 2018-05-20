@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0121A22520B17D3F009B6A6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0121A22420B17D3F009B6A6B /* main.cpp */; };
+		0121A22C20B17D91009B6A6B /* CORChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0121A22B20B17D91009B6A6B /* CORChecker.cpp */; };
+		0121A22E20B17DCD009B6A6B /* GameComand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0121A22D20B17DCD009B6A6B /* GameComand.cpp */; };
+		0121A23020B17E41009B6A6B /* BasicUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0121A22F20B17E41009B6A6B /* BasicUnit.cpp */; };
+		0121A23220B17E6D009B6A6B /* Orcs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0121A23120B17E6D009B6A6B /* Orcs.cpp */; };
+		0121A23420B17E8E009B6A6B /* People.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0121A23320B17E8E009B6A6B /* People.cpp */; };
+		0121A23620B17EBB009B6A6B /* Elfs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0121A23520B17EBB009B6A6B /* Elfs.cpp */; };
+		0121A23820B17EED009B6A6B /* Army.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0121A23720B17EED009B6A6B /* Army.cpp */; };
+		0121A23A20B17F20009B6A6B /* Castles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0121A23920B17F20009B6A6B /* Castles.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0121A21F20B17D3F009B6A6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0121A22120B17D3F009B6A6B /* TPv3.0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TPv3.0; sourceTree = BUILT_PRODUCTS_DIR; };
+		0121A22420B17D3F009B6A6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0121A22B20B17D91009B6A6B /* CORChecker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CORChecker.cpp; sourceTree = "<group>"; };
+		0121A22D20B17DCD009B6A6B /* GameComand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameComand.cpp; sourceTree = "<group>"; };
+		0121A22F20B17E41009B6A6B /* BasicUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicUnit.cpp; path = UnitsClasses/BasicUnit.cpp; sourceTree = "<group>"; };
+		0121A23120B17E6D009B6A6B /* Orcs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Orcs.cpp; path = UnitsClasses/Orcs.cpp; sourceTree = "<group>"; };
+		0121A23320B17E8E009B6A6B /* People.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = People.cpp; path = UnitsClasses/People.cpp; sourceTree = "<group>"; };
+		0121A23520B17EBB009B6A6B /* Elfs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Elfs.cpp; path = UnitsClasses/Elfs.cpp; sourceTree = "<group>"; };
+		0121A23720B17EED009B6A6B /* Army.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Army.cpp; path = UnitsClasses/Army.cpp; sourceTree = "<group>"; };
+		0121A23920B17F20009B6A6B /* Castles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Castles.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0121A21E20B17D3F009B6A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0121A21820B17D3F009B6A6B = {
+			isa = PBXGroup;
+			children = (
+				0121A22320B17D3F009B6A6B /* TPv3.0 */,
+				0121A22220B17D3F009B6A6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0121A22220B17D3F009B6A6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0121A22120B17D3F009B6A6B /* TPv3.0 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0121A22320B17D3F009B6A6B /* TPv3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				0121A22420B17D3F009B6A6B /* main.cpp */,
+				0121A22B20B17D91009B6A6B /* CORChecker.cpp */,
+				0121A22D20B17DCD009B6A6B /* GameComand.cpp */,
+				0121A22F20B17E41009B6A6B /* BasicUnit.cpp */,
+				0121A23120B17E6D009B6A6B /* Orcs.cpp */,
+				0121A23320B17E8E009B6A6B /* People.cpp */,
+				0121A23520B17EBB009B6A6B /* Elfs.cpp */,
+				0121A23720B17EED009B6A6B /* Army.cpp */,
+				0121A23920B17F20009B6A6B /* Castles.cpp */,
+			);
+			path = TPv3.0;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0121A22020B17D3F009B6A6B /* TPv3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0121A22820B17D3F009B6A6B /* Build configuration list for PBXNativeTarget "TPv3.0" */;
+			buildPhases = (
+				0121A21D20B17D3F009B6A6B /* Sources */,
+				0121A21E20B17D3F009B6A6B /* Frameworks */,
+				0121A21F20B17D3F009B6A6B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPv3.0;
+			productName = TPv3.0;
+			productReference = 0121A22120B17D3F009B6A6B /* TPv3.0 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0121A21920B17D3F009B6A6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ILdar Zinatulin";
+				TargetAttributes = {
+					0121A22020B17D3F009B6A6B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0121A21C20B17D3F009B6A6B /* Build configuration list for PBXProject "TPv3.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0121A21820B17D3F009B6A6B;
+			productRefGroup = 0121A22220B17D3F009B6A6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0121A22020B17D3F009B6A6B /* TPv3.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0121A21D20B17D3F009B6A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0121A23020B17E41009B6A6B /* BasicUnit.cpp in Sources */,
+				0121A23A20B17F20009B6A6B /* Castles.cpp in Sources */,
+				0121A23620B17EBB009B6A6B /* Elfs.cpp in Sources */,
+				0121A23820B17EED009B6A6B /* Army.cpp in Sources */,
+				0121A22E20B17DCD009B6A6B /* GameComand.cpp in Sources */,
+				0121A22C20B17D91009B6A6B /* CORChecker.cpp in Sources */,
+				0121A22520B17D3F009B6A6B /* main.cpp in Sources */,
+				0121A23420B17E8E009B6A6B /* People.cpp in Sources */,
+				0121A23220B17E6D009B6A6B /* Orcs.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0121A22620B17D3F009B6A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0121A22720B17D3F009B6A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0121A22920B17D3F009B6A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0121A22A20B17D3F009B6A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0121A21C20B17D3F009B6A6B /* Build configuration list for PBXProject "TPv3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0121A22620B17D3F009B6A6B /* Debug */,
+				0121A22720B17D3F009B6A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0121A22820B17D3F009B6A6B /* Build configuration list for PBXNativeTarget "TPv3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0121A22920B17D3F009B6A6B /* Debug */,
+				0121A22A20B17D3F009B6A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0121A21920B17D3F009B6A6B /* Project object */;
+}
